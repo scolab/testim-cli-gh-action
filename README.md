@@ -30,5 +30,8 @@ This action makes the testim.io cli available to your workflows
 uses: scolab/testim-cli-gh-action@v0.7.0
 with:
   token: ${{ secrets.TESTIM_TOKEN }}
-  project-id: <PROJECT_ID>
+  project: <PROJECT_ID>
+  grig: <GRID_NAME>
+  suite: <SUITE_ID>
+  arg: <OTHER COMMANDLINE OPTIONS>
 ```

@@ -16,6 +16,14 @@ This action makes the testim.io cli available to your workflows
 
 **Required** The grid on which to execute the tests. Default `"Testim-Grid"`.
 
+### `suite`
+
+**Required** The test suite to execute.
+
+### `arg`
+
+**Optional** The rest of the cli options
+
 ## Example usage
 
 ```bash

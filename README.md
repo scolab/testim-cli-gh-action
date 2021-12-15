@@ -27,7 +27,7 @@ This action makes the testim.io cli available to your workflows
 ## Example usage
 
 ```bash
-uses: instinctstudios/testim-cli-gh-action@v0.3.0
+uses: scolab/testim-cli-gh-action@v0.3.0
 with:
   token: ${{ secrets.TESTIM_TOKEN }}
   project-id: <PROJECT_ID>
